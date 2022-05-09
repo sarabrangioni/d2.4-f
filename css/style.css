@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.txt-verde {
+  color: #00a68e;
+}
+
+.fund-verde {
+  background-color: #00a68e;
+}
+
+.logo {
+  font-weight: 900;
+  color: #293651;
+}
+.alt2 {
+  margin: 10px auto;
+  font-weight: 400;
+}
+
+.n-texto {
+  color: #293651;
+}
+.alt3 {
+  color: #484b64;
+  font-weight: lighter;
+  margin: 20px auto;
+}
+
+.centralizar {
+  padding: 0 30%;
+}
+
+.secao {
+  padding: 5% 0;
+}
+.block {
+  display: block;
+}
+
+.perfil {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 420px;
+}
+
+.perfil-s {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 220px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  margin: 10px 0 30px 0;
+  text-align: center;
+  color: white;
+}
+
+.boladao {
+  font-size: 36pt;
+  font-weight: 600;
+}
+
+.linha {
+  width: 100px;
+  border-top: 5px solid #00a68e;
+  margin: 20px 0;
+}
+
+.texto {
+  font-size: 16pt;
+  color: #484b64;
+}
+
+.label {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.progress-label {
+  /* display: inline-block; */
+  text-align: right;
+  right: 0;
+}
+progress {
+  border: 0;
+  width: 100%;
+  height: 15px;
+}
+
+progress::-webkit-progress-value {
+  background: #00a78e;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background: #e2e4e3;
+  border-radius: 10px;
+}
+
+.bg-cinza {
+  background-color: #f9f9f9;
+  padding: 50px 10%;
+}
+
+.bg-cinza h2,
+.linha {
+  text-align: center;
+}
+
+.bg-cinza .linha {
+  margin: 15px auto;
+}
+.painel {
+  column-count: 2;
+  max-width: 630px;
+  margin: auto;
+}
+
+.quadrado {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  min-height: 300px;
+  margin: 5%;
+  max-width: 300px;
+  padding: 10%;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px #c6c6c6;
+}
+
+.quadrado img {
+  width: 100px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.sub4 {
+  margin-bottom: 10px;
+}
+
+.bg-contato {
+  padding: 10%;
+  background-image: center url(img/mapamundo.png);
+}
+.contato {
+  padding: 8%;
+  height: 300px;
+  background-color: #00a68e;
+  margin: 10%;
+  border-radius: 15px;
+}
+
+.cont-container {
+  color: white;
+  margin: auto;
+  line-height: 42px;
+}
+
+.cont-container span {
+  display: block;
+  font-size: 18pt;
+  margin-bottom: 10px;
+}
+
+.footer {
+  height: 400px;
+  background-color: #f0f0f0;
+  padding: 10%;
+  text-align: center;
+}
+
+.ft-container {
+  margin: auto;
+}
+
+.social {
+  margin: auto;
+  width: 70%;
+  text-align: center;
+}
+
+i {
+  width: 80px;
+  color: #216d4d;
+  margin: auto auto 20px auto;
+  font-size: 24pt;
+}
+
+li {
+  display: inline-block;
+  margin: 30px 20px;
+  font-weight: bold;
+}
+@media (max-width: 720px) {
+  body {
+    position: absolute;
+  }
+  .secao {
+    margin-left: 21px;
+  }
+  .centralizar {
+    padding: 0;
+    width: 398px;
+  }
+  .boladao {
+    font-size: 18pt;
+    font-weight: 600;
+  }
+  .imgenzo {
+    width: 267px;
+    height: 377px;
+  }
+  .bg-contato {
+    padding: 0;
+    width: 332px;
+  }
+  .contato {
+    margin: 0;
+  }
+  .painel {
+    column-count: 1;
+    max-width: 630px;
+    margin: auto;
+  }
+  .bg-cinza {
+    background-color: #f9f9f9;
+    padding: 0;
+    width: 396px;
+  }
+  ss .perfil-s {
+    width: 334px;
+  }
+  .secao,
+  .texto {
+    margin-right: 59px;
+  }
+  .footer {
+    margin-top: 44px;
+    /* margin: 1px; */
+    height: 400px;
+    background-color: #f0f0f0;
+    /* padding: 10%; */
+    text-align: center;
+  }
+}
